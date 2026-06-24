@@ -7,7 +7,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 import re
 
-df = pd.read_csv("./data/naver_headline_news_20260605.csv")
+df = pd.read_csv("./data/naver_headline_news_20260610.csv")
 df.drop_duplicates(inplace=True)
 df.reset_index(drop=True, inplace=True)
 print(df.head())
